@@ -5,13 +5,13 @@ We will be creating a **module** that helps us generate a **Queue Class** in the
 ## Methods
 
 ### size()
-Returns the size of the stack
+Returns the size of the queue
 
-### push(item)
-Adds an item to the top of the stack structure
+### enqueue(item)
+Adds an item to the top of the queue structure
 
 ### pop()
-Takes an item off the top of the stack and returns the item.
+Takes an item off the top of the queue and returns the item.
 
 ### peek()
 Returns the first item in line to be removed without removing it.
@@ -21,5 +21,5 @@ Returns the first item in line to be removed without removing it.
 1. In the Terminal, navigate to the newly created folder for this repository.
 1. Install dependencies by running the command: `npm install`
 1. Run tests by running the command: `npm test`
-1. Your work will be one in the file named: `lib/Stack.js`
+1. Your work will be one in the file named: `lib/Queue.js`
 1. Make your tests pass!

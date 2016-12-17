@@ -21,7 +21,7 @@ describe('Queue', function() {
     });
   });
 
-  describe('Queue behavior', function() {
+  describe('behavior :', function() {
     var myQueue;
     beforeEach(function() {
       myQueue = new Queue();
