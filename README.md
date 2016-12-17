@@ -14,7 +14,8 @@ Adds an item to the top of the queue structure
 Takes an item off the top of the queue and returns the item.
 
 ### peek()
-Returns the first item in line to be removed without removing it.
+Returns the first item in line to be removed without removing it. If there are
+no items in the queue, return null
 
 ## Getting Started
 1. Fork this repository and clone it from your personal GitHub Account
