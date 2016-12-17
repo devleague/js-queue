@@ -1,6 +1,6 @@
 # The Queue Datastructure
 
-We will be creating a **module** that helps us generate a **Queue**. A queue is a data structure in which the first element is inserted from one end called REAR (also called tail), and the deletion of existing element takes place from the other end called as FRONT (also called head).  This makes queue a FIFO (first in first out), or the element that is inserted first will always be the first to be removed.
+We will be creating a **module** that helps us generate a **Queue Class** in the **Node environment**. A queue is a data structure in which the first element is inserted from one end called REAR (also called tail), and the deletion of existing element takes place from the other end called as FRONT (also called head).  This makes queue a FIFO (first in first out), or the element that is inserted first will always be the first to be removed.
 
 ## Methods
 

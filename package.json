@@ -4,7 +4,7 @@
   "description": "A queue datastructure excercise implemented in javascript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch"
+    "test": "mocha --watch --bail"
   },
   "repository": {
     "type": "git",
