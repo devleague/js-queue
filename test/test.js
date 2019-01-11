@@ -5,7 +5,7 @@ describe('Queue', function() {
   describe('Class methods', function() {
     var myQueue;
     beforeEach(function() {
-      myQueue = new Queue();
+      myQueue = Queue;
     });
     it('should have a size() function', function() {
       myQueue.size.should.be.a('function');
@@ -26,7 +26,7 @@ describe('Queue', function() {
     beforeEach(function() {
       myQueue = new Queue();
     });
-    it('A new queue should start with a size of 0', function(){
+    it('A new queue should start with a size of 0', function() {
       var size = myQueue.size();
       size.should.equal(0);
     });
